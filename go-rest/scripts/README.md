@@ -8,10 +8,15 @@ This document provides steps to generate the inventory management system script 
    Use a clear and concise prompt to describe the schema requirements. For example:
    ```
    Create an SQLite script for an inventory management system with the following:
-   - A `suppliers` table with columns: `supplier_id` (primary key), `name`, `contact_info`.
-   - A `categories` table with columns: `category_id` (primary key), `name`, `supplier_id` (foreign key referencing suppliers).
-   - A `products` table with columns: `product_id` (primary key), `name`, `price`, `category_id` (foreign key referencing categories).
-   - A `product_list` view combining product, category, and supplier details.
+   - Step 1:  Enable foreign key constraints
+   - Step 2: Create a `suppliers` table with columns: `supplier_id` (primary key), `name`, `contact_info`.
+   - Step 3: Create a `categories` table with columns: `category_id` (primary key), `name`, `supplier_id` (foreign key referencing suppliers).
+   - Step 4: Create a `products` table with columns: `product_id` (primary key), `name`, `price`, `category_id` (foreign key referencing categories).
+   - Step 5: Create a `product_list` view combining product, category, and supplier details.
+   - Step 6: Populate the `suppliers` table with sample data
+   - Step 7: Populate the `categories` table with sample data
+   - Step 8: Populate the `products` table with sample data
+.
    ```
 
 2. **Review the Generated Script**  
@@ -27,8 +32,7 @@ This document provides steps to generate the inventory management system script 
 4. **Iterate if Necessary**  
    If the script does not meet the requirements, refine the prompt and regenerate the script using Copilot AI.
 
-5. **Save and Document**  
-   Once the script is finalized, save it and update this README file to reflect any changes or additional instructions.
+
 
 
 
