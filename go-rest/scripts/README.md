@@ -1,6 +1,6 @@
 # Generating the Inventory SQLite Script with Copilot AI
 
-This document provides steps to regenerate the inventory management system script using Copilot AI.
+This document provides steps to generate the inventory management system script using Copilot AI. The script is designed to create and manage an inventory system efficiently, leveraging Copilot AI to streamline the development process.
 
 ## Steps to Regenerate the Script
 
@@ -30,7 +30,5 @@ This document provides steps to regenerate the inventory management system scrip
 5. **Save and Document**  
    Once the script is finalized, save it and update this README file to reflect any changes or additional instructions.
 
-## Purpose of the Script
 
-The script is designed to create and manage an inventory system efficiently, leveraging Copilot AI to streamline the development process.
 

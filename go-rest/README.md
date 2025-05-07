@@ -9,7 +9,7 @@ Review the sections, then use Copilot to build out an application that meets the
 
 Consider starting with the following prompt:
 - Please review Section 1 and respond with advice based on the requirements.
-- I need to convert the sqlite script  '/scripts/inventory.sql' into a sqlite database '/SQLite/inventory.db'. Where do i find the sqlite tool and how do i use it to perform the conversion? Provide concise, easy-to-understand steps.
+- I need to use the sqlite script  '/scripts/inventory.sql' to create a sqlite database '/SQLite/inventory.db'. Where can I find the sqlite tool and how do I use it to perform the conversion? Provide concise, easy-to-understand steps.
 
 
 Reminder: Sections 2 and 3 are guidelines for the implementation and testing phase of the development process and may require several refinement iterations before the final product is ready for deployment.
