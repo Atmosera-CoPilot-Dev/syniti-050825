@@ -2,7 +2,7 @@
 
 1)
 ```
-I need to learn concurrent sequential processing in Go. Provide a list of scenarios I could use in preparation of implementing a task scheduler in Go.
+Provide a list of scenarios where concurrent programming is useful in Go. Include small code snippets to illustrate each scenario.
 ```
 
 2)
@@ -27,11 +27,11 @@ What types of NoSql databases are recommended to use in a service implemented in
 
 6)
 ```
-Review and explain the following T-SQL stored procedure. 
-- Suggest any enhancements that would improve performnce, security, and maintainability.  
+Review the following T-SQL stored procedure. 
+- Suggest any enhancements that would improve performnce and security, and maintainability.  
 - Provide a sample of the improved procedure.
 
-CREATE PROCEDURE GetEmployeeDetailsByDepartment
+CREATE PROCEDURE GetEmployeeDetailsByDepartmentName
     @DepartmentName NVARCHAR(MAX)
 AS
 BEGIN
@@ -61,12 +61,12 @@ hourly rate ($25.00 to $75.00, standard deviation of $7.65)
 
 8)
 ```
-I am a systems architect leading a team of systems engineers. Our environment includes both Go and C# applications and services. I need guidance on planning, designing, and implementing the following tasks:
+I am a systems architect leading a team of systems engineers. Our environment includes both Go and C# applications and services. I need advise and guidance on planning these tasks:
 
 1. Create a cloud environment using Azure.
 2. Set up a web server and a load balancer.
 3. Set up a database server.
 4. Configure networking (e.g., VPC, subnets, security groups).
-5. Implement security measures for the infrastructure.
+5. Identify security measures for the infrastructure.
 
 ```

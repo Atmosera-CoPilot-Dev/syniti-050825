@@ -1,4 +1,6 @@
-﻿-- Enable foreign key constraints
+﻿-- SQLite script to create an inventory management system
+
+-- Enable foreign key constraints
 PRAGMA foreign_keys = ON;
 
 -- Step 1: Create the suppliers table
