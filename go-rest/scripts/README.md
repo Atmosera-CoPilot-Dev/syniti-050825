@@ -1,22 +1,21 @@
 # Generating the Inventory SQLite Script with Copilot AI
 
-This document provides steps to generate the inventory management system script using Copilot AI. The script is designed to create and manage an inventory system efficiently, leveraging Copilot AI to streamline the development process.
+This document provides steps to generate the inventory management system script (inventory.sql) using Copilot AI. The script is designed to create and manage an inventory system efficiently, leveraging Copilot AI to streamline the development process.
 
-## Steps to Regenerate the Script
+## Steps to Generate the Script
 
 1. **Prompt Copilot AI**  
    Use a clear and concise prompt to describe the schema requirements. For example:
    ```
    Create an SQLite script for an inventory management system with the following:
-   - Step 1:  Enable foreign key constraints
-   - Step 2: Create a `suppliers` table with columns: `supplier_id` (primary key), `name`, `contact_info`.
-   - Step 3: Create a `categories` table with columns: `category_id` (primary key), `name`, `supplier_id` (foreign key referencing suppliers).
-   - Step 4: Create a `products` table with columns: `product_id` (primary key), `name`, `price`, `category_id` (foreign key referencing categories).
+   - Step 1: Enable foreign key constraints.
+   - Step 2: Create a `suppliers` table with columns: `supplier_id` (primary key), `supplier_name`, `contact_name`, `phone`.
+   - Step 3: Create a `categories` table with columns: `category_id` (primary key), `category_name`, `supplier_id` (foreign key referencing `suppliers`).
+   - Step 4: Create a `products` table with columns: `product_id` (primary key), `product_name`, `category_id` (foreign key referencing `categories`), `price`, `stock`.
    - Step 5: Create a `product_list` view combining product, category, and supplier details.
-   - Step 6: Populate the `suppliers` table with sample data
-   - Step 7: Populate the `categories` table with sample data
-   - Step 8: Populate the `products` table with sample data
-.
+   - Step 6: Populate the `suppliers` table with sample data.
+   - Step 7: Populate the `categories` table with sample data.
+   - Step 8: Populate the `products` table with sample data.
    ```
 
 2. **Review the Generated Script**  
