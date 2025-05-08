@@ -61,7 +61,46 @@ hourly rate ($25.00 to $75.00, standard deviation of $7.65)
 
 8)
 ```
-I am a systems architect leading a team of systems engineers. Our environment includes both Go and C# applications and services. I need advise and guidance on planning these tasks:
+Help me create a 'nUnit'  test for a C# class 'Corp.Employees'.
+The class has a method 'HighEarners' that returns a vector of employees who earn more than 100,000.
+The employee class has a name and a salary. The method should return a vector of employees who earn more than 100,000.
+Edge cases:
+The test should include a test case where the vector is empty, and another where the vector has one employee. In both cases, the method should return an empty vector.
+
+The test code should be in a separate file and should use the nUnit framework.
+```
+
+9)
+```
+Modify the Employees class to include a HighEarners method that accepts a function expression (lambda) strategy in the form: (double) => boolean.
+Update the unit test class EmployeesTests to test the modified HighEarners method.
+``` 
+
+10)
+```
+Help me create an 'MSTest' unit test  for a C# class 'NLP.WordMix'  that contains a public, static method 'palindrome'.
+The method takes a string as an argument and returns true if the string can be read the same from right to left or left to right.
+Details:
+- The method should be case-insensitive
+- The method should not consider spaces or punctuation
+Examples:
+- bob => true
+- kayak => true 
+- car => false
+- A Santa at NASA => true
+- go hang a salami I'm a lasagna hog => true
+
+Include the code for the class and the test class that checks if a string is a palindrome. The class should be case-insensitive and ignore spaces and punctuation. Include unit tests for the class using MSTest.
+```
+
+11)
+```
+Create a C# class that represents the unit tested in step 10. The class should include a method that checks if a string is a palindrome. The method should be case-insensitive and ignore spaces and punctuation. Include unit tests for the class using MSTest.
+```
+
+12)
+```
+I am a systems architect leading a team of systems engineers. Our environment includes both Go and C# applications and services. I need advice and guidance on planning these tasks:
 
 1. Create a cloud environment using Azure.
 2. Set up a web server and a load balancer.

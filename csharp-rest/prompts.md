@@ -13,7 +13,7 @@ I want to use the SQLite command-line tool.
 ## Data Library
 
 Help me understand how to use entity framework with C# to create a data library based on the inventory database. I am using .NET 8.0.
-- show which nuget packages would I need to install to use SQLite3
+- show which nuget packages I need to install to use SQLite3
 
 Help me create POCO classes for the following tables in the inventory database:
 - products, categories, suppliers
